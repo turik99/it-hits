@@ -72,7 +72,7 @@ export const mintCounterInput = style([
     color: 'primary',
     backgroundColor: 'transparent',
     borderColor: 'transparent',
-    borderRadius: 'small',
+    borderRadius: 'phat',
     borderWidth: 'normal',
     borderStyle: 'solid',
     textAlign: 'center',
@@ -109,9 +109,9 @@ export const header = style({
 
 export const heroImage = style({
   objectFit: 'contain',
-  maxHeight: '45vh',
+  maxHeight: '65vh',
   maxWidth: '100%',
-  borderRadius: '12px',
+  borderRadius: '24px',
   overflow: 'hidden',
   margin: 'auto',
   '@media': {

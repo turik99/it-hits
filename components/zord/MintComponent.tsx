@@ -79,7 +79,7 @@ export function MintComponent({
           </Stack>
 
           {saleIsActive && !isSoldOut ? (
-            <Stack gap="x1" style={{ textAlign: 'right' }}>
+            <Stack gap="x1" style={{ textAlign: 'right'}}>
               <Flex
                 className={'zord-mint-status__number-input'}
                 gap="x2"

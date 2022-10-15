@@ -31,6 +31,12 @@ a:hover {
 
 .zord-mint-details .zord-text-paragraph-sm {
   font-size: var(--_1yv16yc6i); /* font-size: 18px */
+  border-radius: 80px ;
+}
+
+.zord-mint-details{
+  font-size: var(--_1yv16yc6i); /* font-size: 18px */
+  border-radius: 80px ;
 }
 
 .zord-text-eyebrow {
@@ -41,7 +47,7 @@ a:hover {
 
 .zord-mint-status__number-input {
   background-color: var(--_1yv16yc5i); /* color: accent */
-  border-radius: var(--_1yv16yc7l); /* borderRadius: regular */
+  border-radius: 24px; /* borderRadius: regular */
   padding: 5px;
 }
 .zord-mint-status__number-input input,

@@ -58,13 +58,13 @@ export function MintDetails({
   }).format(parseInt(collection.maxSupply))
 
   return (
-    <Stack gap="x4">
+    <Stack  gap="x4">
       <Collapsible.Root
         defaultOpen={!showToggle}
         onOpenChange={(value) => setOpened(value)}
       >
-        <Stack className="zord-mint-details" gap="x3">
-          <Flex className="zord-mint-details__item" gap="x3" justify="space-between">
+        <Stack  className="zord-mint-details" gap="x3">
+          <Flex  className="zord-mint-details__item" gap="x3" justify="space-between">
             <Text variant="paragraph-sm" color="tertiary">
               Number minted
             </Text>

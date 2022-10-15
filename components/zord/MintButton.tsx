@@ -116,7 +116,8 @@ export function MintButton({
         onClick={
           !address ? openConnectModal : chain?.unsupported ? openChainModal : handleMint
         }
-        style={isMinted ? { backgroundColor: vars.color.positive } : {}}
+        style={isMinted ? { backgroundColor: vars.color.positive, borderRadius: "24px" } : {borderRadius: "24px"}}
+        
         className={awaitingApproval ? waitingApproval : ''}
         disabled={
           isMinting ||

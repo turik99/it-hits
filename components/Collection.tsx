@@ -52,9 +52,9 @@ export function Collection({
       </Flex>
       <Box flex={{ '@initial': '1', '@1024': 'none' }} className={maxWidth} p="x4">
         <Stack gap="x2" mb="x3">
-          <Text variant="display-md" mb="x2">
+          <h1 style={{fontFamily: "Futura", fontSize: "102px", fontStyle: "italic", fontWeight: "bold"}}>
             {collection.name}
-          </Text>
+          </h1>
           <Paragraph className={wrapWords} mb="x2">
             <ReactMarkdown>{JSON.parse(`"${metadata?.description || collection?.editionMetadata?.description}"`)}</ReactMarkdown>
           </Paragraph>
@@ -108,7 +108,7 @@ export function Collection({
                   </Well>
                 )}
               </Box>
-              <Well borderColor="accent" fontSize={14} mt="x4">
+              <Well style={{borderRadius: "48px"}} borderColor="accent" fontSize={14} mt="x4">
                 <MintDetails collection={collection} showToggle={false} />
               </Well>
             </>
